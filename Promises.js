@@ -84,12 +84,10 @@
 // // );
 // // }
 
-// // async function StepOver(){
-// //     await Step1();
-// //     await Step2();
-// //     await Step3();
-// //     await Step4();
-// //     console.log("Congratulations! All steps are completed...............");
-// // }
+// // Step1()
+// // .then(Step2)
+// // .then(Step3)
+// // .then(Step4)
+// // .then(()=>{console.log('Congratulations! All steps are completed..........')});
 
-// // StepOver();
+
