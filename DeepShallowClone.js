@@ -11,7 +11,7 @@
 // Any modification in nested objects reflects in the original.
 
 // let OrignalCopy = [[1,2,3],[4,5,6]]
-//Shallow Copy(using spread operator)
+// Shallow Copy(using spread operator)
 // let ShallowCopy = [...OrignalCopy]
 // ShallowCopy[0][0] = 99;
 // console.log(OrignalCopy);
