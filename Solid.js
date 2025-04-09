@@ -21,7 +21,7 @@
 //     send(email) { ... }
 //   }
   
-//................................................................................................
+// ................................................................................................
 // (2)
 // O — Open/Closed Principle (OCP)
 // Software entities(class, module) should be open for extension(add some functionality in a class)
@@ -93,8 +93,8 @@
 
 
 
-//...........................................................................................
-//(3) Liskov Substitute Principle(LSP): 
+// ...........................................................................................
+// (3) Liskov Substitute Principle(LSP): 
 // It states that if a subclass inherits from a superclass, it should be usable in any
 //  context where the superclass is expected, without causing issues.
 // You should be able to use a subclass wherever a parent class is expected.
@@ -115,7 +115,7 @@
 //   makeItFly(new Sparrow()); // Works fine ✅
 // If a subclass breaks functionality (e.g., a Penguin that can't fly), LSP is violated.  
 
-//......................................................................................................
+// ......................................................................................................
 
 // (4)
 // I — Interface Segregation Principle (ISP)
@@ -140,9 +140,9 @@
 //   class IScanner {
 //     scan();
 //   }
-  //................................................................................................
+//   ................................................................................................
 
-  // (5)
+//   (5)
 //   D — Dependency Inversion Principle (DIP)
 // High-level modules should not depend on low-level modules.
 // Both should depend on abstractions.
