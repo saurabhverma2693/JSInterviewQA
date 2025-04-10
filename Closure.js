@@ -14,6 +14,24 @@
 //     };
 // }
 
+
+// function outer() {
+//     let count = 0;
+    
+//     return function inner() {
+//       count++;
+//       console.log(count);
+//     };
+//   }
+  
+//   const counter = outer(); // outer() returns the inner function
+//   counter(); // 1
+//   counter(); // 2
+//   counter(); // 3
+  
+
+
+
 // const closureFunction = outerFunction("Hello");
 // closureFunction("World"); // Output: Outer Variable: Hello, Inner Variable: World
 
