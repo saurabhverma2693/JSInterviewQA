@@ -69,3 +69,18 @@
 // Direction	Top → down	Bottom → up
 // Default behavior	Not used unless specified	Default event phase
 // Use case	Rare, but useful for intercepting events early	Most common (e.g., delegation)
+
+// ✋ Stopping Event Flow
+// To stop capturing and bubbling:
+
+// javascript
+// Copy
+// Edit
+// event.stopPropagation();
+// To completely stop everything (including default behavior):
+
+// javascript
+// Copy
+// Edit
+// event.stopImmediatePropagation();
+// event.preventDefault();
