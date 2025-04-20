@@ -1,6 +1,7 @@
 
 
-// In JavaScript, Map and Set are both built-in data structures introduced in ES6 (ECMAScript 2015). They are used to store collections of data, but they have different use cases and characteristics.
+// In JavaScript, Map and Set are both built-in data structures introduced in ES6 (ECMAScript 2015). They are used to store collections of data,
+//  but they have different use cases and characteristics.
 
 // 🔷 Map – Key-Value Pairs
 // A Map is a collection of key-value pairs where keys can be of any type (objects, functions, primitives, etc.).
