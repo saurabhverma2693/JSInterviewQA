@@ -28,4 +28,26 @@
 // With Arrow Functions:
 // const curriedAdd = a => b => a + b;
 // console.log(curriedAdd(2)(3)); // 5
+//...........................................................................................
+// # Infinite Currying achieve through recursion
+// function FullName(fname){
+//     return function(lname){
+//         if(!lname)
+//             return fname;
 
+
+//         return FullName(fname + ' ' + lname);
+//     }
+// }
+
+// console.log(FullName('Saurabh')('Verma')('Shabu')('Verma')());
+
+// #Explanation:
+// ! means empty means if lname is empty then return fname other wise return  recursion
+//  whose concatenate fname and lname values 
+// FullName() has one argument and return other function having a value lname
+//  if lname is not empty then return recursion() other wise return fname value  
+// function FullName(fname){
+//          return function(lname){}
+     
+    
