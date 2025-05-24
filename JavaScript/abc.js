@@ -1,14 +1,37 @@
-function FullName(fname){
-    return function(lname){
-        if(!lname)
-            return fname;
+
+// Abhishek is running up a staircase with N steps, and can hop(jump) either 1 step, 2 steps or 3 steps at a time. You have to count, how many possible ways abhsihek can run up to the stairs. 
+// N=4
+
+// 1 - 2,2
+// 2 - 1,3
+// 3 - 2,1,1
+// 1 - 1,2
+// 2 - 2,3
+// 2 - 3,2
+// ...............................................................................................................................................................
+// console.log("Start");
+
+// setTimeout(() => console.log("Timeout"), 0);
+// setImmediate(() => console.log("Immediate"));
+
+// Promise.resolve().then(() => console.log("Promise"));
+
+// process.nextTick(() => console.log("Next Tick"));
+
+// console.log("End");
+
+//............................................................................................................................................................
+// function FullName(fname){
+//     return function(lname){
+//         if(!lname)
+//             return fname;
 
 
-        return FullName(fname + ' ' + lname);
-    }
-}
+//         return FullName(fname + ' ' + lname);
+//     }
+// }
 
-console.log(FullName('Saurabh')('Verma')('Shabu')('Verma')());
+// console.log(FullName('Saurabh')('Verma')('Shabu')('Verma')());
 
 // function Add(a){
 //     return function(c){
